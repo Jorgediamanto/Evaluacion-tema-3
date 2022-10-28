@@ -9,7 +9,16 @@ def lanzador():
 
     elif a == 2:
         import ejercicios.ev3ej2
-        lanzador
+        lanzador()
+    elif a == 3:
+        import ejercicios.ev3ej3
+        lanzador()
+    elif a == 4:
+        import ejercicios.ev3ej4
+        lanzador()
+    elif a == 5:
+        import ejercicios.ev3ej5
+        lanzador()
 
     else:
         sys.exit()
