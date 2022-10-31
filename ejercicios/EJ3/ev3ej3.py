@@ -137,34 +137,34 @@ class Nave():
 
         
 
+def ej3():
+
+    naves = []
+
+    a = Nave("Halcón Milenario", 150, 20, 100)
+    b = Nave("Estrella de la Muerte", 200, 15, 125)
+    d = Nave("ATpoori", 34, 1231, 120)
+    c = Nave("Xavineta", 4, 150, 1200)
+    e = Nave("Carromato", 100, 10, 132)
+    f = Nave("Dakota", 32, 330, 1322)
+
+    naves.append(a)
+    naves.append(b)
+    naves.append(c)
+    naves.append(d)
+    naves.append(e)
+    naves.append(f)
+
+    print(a)
+    print(b)
 
 
-naves = []
-
-a = Nave("Halcón Milenario", 150, 20, 100)
-b = Nave("Estrella de la Muerte", 200, 15, 125)
-d = Nave("ATpoori", 34, 1231, 120)
-c = Nave("Xavineta", 4, 150, 1200)
-e = Nave("Carromato", 100, 10, 132)
-f = Nave("Dakota", 32, 330, 1322)
-
-naves.append(a)
-naves.append(b)
-naves.append(c)
-naves.append(d)
-naves.append(e)
-naves.append(f)
-
-print(a)
-print(b)
-
-
-a.ordenar_alfabeticamente(naves)
-a.ordenar_inverso_alfabeticamente(naves)
-a.mayor_pasajeros(naves)
-a.mayor_tripulacion(naves)
-a.empiezan_AT(naves)
-a.seis_o_mas(naves)
-a.mas_pequeña_mas_grande(naves)
+    a.ordenar_alfabeticamente(naves)
+    a.ordenar_inverso_alfabeticamente(naves)
+    a.mayor_pasajeros(naves)
+    a.mayor_tripulacion(naves)
+    a.empiezan_AT(naves)
+    a.seis_o_mas(naves)
+    a.mas_pequeña_mas_grande(naves)
 
 
